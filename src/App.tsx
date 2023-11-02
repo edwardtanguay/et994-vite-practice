@@ -1,5 +1,6 @@
 /* eslint-disable prefer-const */
 import states from './data/states.json';
+import sunset from './images/sunset.png';
 
 export const App = () => {
 	const title = "Vite React Site";
@@ -7,6 +8,7 @@ export const App = () => {
 	return (
 		<>
 			<h1>{title}</h1>
+			<img src={sunset}/>
 			<div className="highlighted">hello</div>
 			{userType === "admin" ? (
 				<div>this is the admin info</div>
