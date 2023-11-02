@@ -1,3 +1,7 @@
 body {
-  padding: 2rem;
+	padding: 2rem;
+}
+
+.highlighted {
+	background-color: yellow;
 }
